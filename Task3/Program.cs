@@ -25,8 +25,6 @@ int[] ArrayFromTwoToMono(int[,] array)
             arr[index] = array[i, j];
             index++;
         }
-
-
     }
     return arr;
 
